@@ -1,0 +1,17 @@
+{
+  "change": [
+    {
+      "kind": "update",
+      "schema": "public",
+      "table": "users",
+      "columnnames": ["id", "firstname", "lastname", "created_at"],
+      "columntypes": ["integer", "text", "text", "timestamp without time zone"],
+      "columnvalues": [1, "Johny", "Kowalski", "2020-09-15 11:58:28.988414"],
+      "oldkeys": {
+        "keynames": ["id"],
+        "keytypes": ["integer"],
+        "keyvalues": [1]
+      }
+    }
+  ]
+}

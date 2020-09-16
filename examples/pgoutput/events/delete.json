@@ -1,0 +1,14 @@
+{
+  "change": [
+    {
+      "kind": "delete",
+      "schema": "public",
+      "table": "users",
+      "oldkeys": {
+        "keynames": ["id"],
+        "keytypes": ["integer"],
+        "keyvalues": [1]
+      }
+    }
+  ]
+}
